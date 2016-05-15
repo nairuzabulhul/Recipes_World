@@ -3,7 +3,7 @@
 Recipes World is Web application created with Node.js and MonogoDB
 
 
-![Log](http://s32.postimg.org/ci2opz8dx/output_x_Ck1_RC.gif)
+![Log](http://i.giphy.com/xT4uQiDMy0dWFfU5bO.gif)
 
 
 

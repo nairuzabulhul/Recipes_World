@@ -1,0 +1,147 @@
+#body{
+   background-image: url("http://s32.postimg.org/7s02958p1/tomatoes_before_cucumbers_vegetables_oil_leaves.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+.image{
+     width:30%;
+     height:20%;
+     border-radius: 5px;
+     padding-left:0.2%;
+}
+
+
+#recipes{
+    margin-top: 5%;
+}
+
+#navSection{
+    height: 80px;
+    background-color:#7B0100;
+}
+
+#navItems a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color:white;
+}
+
+#brandName{
+    font-size:1.7em;
+    color:white;
+}
+
+
+.item{
+    padding:0;
+    margin: 0;
+}
+
+.content h1{
+    font-size: 2.5em;
+    color:#7B0100;
+    
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+/*Form Styling*/
+#newForm{
+    margin-top: 8%;
+     background-color: rgba(204,204,204,0.8);
+     padding:0;
+    border:none;
+    height:780px;
+}
+
+#formHeader{
+    height:60px;
+    background-color:rgba(123,1,0,0.6);
+    width:100%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    padding:10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px #7B0100;
+}
+
+.field{
+    padding-left:1%;
+    padding-right: 1%;
+}
+
+textarea{
+    height: 400px !important;
+}
+
+#Image{
+    font-size: 1.4em;
+    padding-bottom:5px;
+     font-family: 'Montserrat', sans-serif !important;
+     padding-left: 3px;
+}
+
+#time{
+     font-size: 1.3em;
+    padding-bottom:5px;
+     font-family: 'Montserrat', sans-serif !important;
+     padding-left: 3px;
+}
+#calories{
+    font-size: 1.3em;
+    padding-bottom:5px;
+     font-family: 'Montserrat', sans-serif !important;
+     padding-left: 3px;
+}
+#ingredient{
+font-size: 1.3em;
+  padding-bottom: 5px;
+   font-family: 'Montserrat', sans-serif !important;
+   padding-left: 4px;
+}
+
+#recipe{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+     font-family: 'Montserrat', sans-serif !important;
+     padding-left: 3px;
+}
+
+input{
+    height: 60px;
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
+textarea{
+    background-color: rgba(255,255,255,0.4) !important;
+    font-size: 1.5em !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#submission{
+    width: 200px;
+    height: 40px;
+    margin-left:  15px;
+    border-radius: 2px;
+    background-color: rgba(123,1,0,0.6);
+    border:none;
+     font-family: 'Montserrat', sans-serif !important;
+     font-size: 1.3em;
+     color:white;
+}
+
+#submission:hover{
+    background-color: rgba(123,1,0,0.8);
+    text-shadow: 5px 5px 5px #7B0100;
+}

@@ -1,0 +1,176 @@
+#body{
+  background: url("http://s32.postimg.org/vxfe5m66d/121059_thewallpaper.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+/*main margin container*/
+   
+.main.container{
+    margin-top: 8em;
+}
+
+.image{
+     width:30%;
+     height:20%;
+     border-radius: 5px;
+     padding-left:0.5%;
+}
+
+#navSection{
+    height: 80px;
+    background-color:#7B0100;
+    margin-bottom:  5%;
+}
+
+#navItems a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color:white;
+}
+
+#brandName{
+    font-size:1.7em;
+    color:white;
+}
+
+
+.item{
+    padding:0;
+    margin: 0;
+}
+
+.content h1{
+    font-size: 2.5em;
+    color:white;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.content p{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+    font-size: 1em;
+}
+
+#description{
+    width: 550px;
+    padding-bottom: 30px;
+}
+
+#recipes{
+     background-color:rgba(123,1,0,0.6);
+}
+
+#time{
+    position: absolute;
+    bottom: 7%;
+    left: 31%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#calories{
+    position: absolute;
+    bottom: 7%;
+    left: 60%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+#checkOut{
+    position: absolute;
+    bottom: 7%;
+    right: 4%;
+    color:#7B0100 !important;
+}
+
+.ui.button{
+    width:130px;
+    height:40px;
+    font-size: 1.1em !important;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif !important;
+    border:none;
+    border-radius: 2px;
+    color: black !important;
+}
+
+
+.ui.button:hover{
+    background-color:rgba(123,1,0,0.6);
+    color:#7B0100 !important;
+}
+
+/*Show Page*/
+#showImage{
+     text-align: center;
+}
+#showImage img{
+    width: 95%;
+    height:550px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#showSegment{
+      background-color:rgba(123,1,0,0.6);
+}
+.header h1{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+#showDescription {
+    color:white;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/*Show page*/
+#delRecipe{
+    position: absolute;
+    top: 1.5%;
+    right:4%;
+    font-size: 0.6em !important;
+    }
+
+#delRecipe button{
+    width: 110px;
+    border-radius: 5px;
+    background-color: white;
+    border:none;
+}    
+
+    
+    
+#editRecipe{
+    position: absolute;
+    top: 1.5%;
+    right:16%;
+    font-size: 0.6em !important;
+}
+
+#editRecipe button{
+     width: 110px;
+    border-radius: 5px;
+    background-color: white;
+    border:none;
+}
+
+.header h1{
+    padding-left: 20px;
+    margin-top: 10px;
+}

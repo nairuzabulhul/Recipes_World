@@ -1,0 +1,21 @@
+{
+  "name": "recipe_world",
+  "version": "1.0.0",
+  "description": "This is recipe web app",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.1",
+    "express": "^3.21.2",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.17",
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nairuz Abulhul",
+  "license": "ISC"
+}

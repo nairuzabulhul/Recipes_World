@@ -1,0 +1,61 @@
+<%include ./partials/formHeader%>
+
+<!--FORM-->
+
+<div id="newForm" class="ui container segment">
+    
+    <div id="formHeader" class="ui huge header">
+        <h1>Edit Recipe</h1>
+    </div>
+    
+    <!--FORM-->
+    <form class="ui form" method="POST" action="/recipes/<%=recipe._id%>?_method=PUT">
+        <!--Title-->
+        <div class="field">
+                <!--<label id="tile">Title</label>-->
+                <input type="text" placeholder="Recipe Title" name="recipe[title]" value="<%=recipe.title%>">
+        </div>
+        <!--Image && Time && Calories-->
+        <div class="fields field">
+            <!--Image-->
+            <div class="ten wide field">
+                  <label id="Image">Image</label>
+                  <input type="text" placeholder="Image url" name="recipe[image]" value="<%=recipe.image%>">
+            </div>
+            <!--Time-->
+            <div class="three wide field">
+                  <label id="time">Preparing Time</label>
+                  <input type="text" placeholder="minutes" name="recipe[time]">
+            </div>
+             <!--Calories-->
+            <div class="three wide field">
+                  <label id="calories">Calories</label>
+                  <input type="text" placeholder="calories" name="recipe[calories]">
+            </div>
+            
+        </div>
+        
+         <!--Ingredients-->
+        <div class="fields field">
+            <!--Ingredients-->
+            <div class="four wide field">
+                <label id="ingredient">Ingredients</label>
+                <textarea class="textarea1" name="recipe[ingredient]"><%=recipe.ingredient%></textarea>
+            </div>
+        
+        <!--Recipe-->
+            <div class="twelve wide field">
+                <label id="recipe">Recipe</label>
+                <textarea name="recipe[recipe]"><%=recipe.recipe%></textarea>
+            </div>
+        </div>
+        
+        <div>
+            <button id="submission" value="submit">Submit</button>
+        </div>
+        
+    </form><!--End OF FORM-->
+    
+</div><!--End of container-->
+
+<%include ./partials/footer%>

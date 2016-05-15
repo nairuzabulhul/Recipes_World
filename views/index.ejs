@@ -1,0 +1,43 @@
+<%include ./partials/header%>
+
+<div class="ui main container">
+    
+      <div class="ui relaxed list">
+        <!--For loop through all recipes-->
+        <% recipes.forEach(function(recipe){ %> 
+      
+      <!--segment-->
+      <div id="recipes" class="ui item black segment">
+          <!--recipe Image-->
+           <img class="ui image" src="<%=recipe.image%>">
+      
+            <div class="content">
+               <h1 id="title"><%=recipe.title%></h1>
+               <!--Desciption-->
+                  <div id="description" class="description">
+                       <p><%-recipe.recipe.substring(0,400) %></p>
+                   </div>
+               <!--Time-->
+                   <div id="time">
+                      <p>Time: <%=recipe.time%></p>
+                   </div>
+               <!--Calories-->
+                   <div id="calories">
+                      <p>Calories: <%=recipe.calories%></p>
+                   </div>
+               
+               <!--button-->
+                   <div id="checkOut">
+                      <a class="ui button" href="/recipes/<%=recipe._id%>">Check Out</a>
+                   </div>
+            </div><!--End of content-->
+        
+      </div><!--End of Segment-->
+      <% }) %> <!--END of for loop-->
+
+    </div>
+</div> <!--End of container-->
+
+
+<!--End of forEach loop -->
+<%include ./partials/footer%>

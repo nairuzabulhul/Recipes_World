@@ -1,0 +1,46 @@
+<%include ./partials/header%>
+
+<div class="ui main container">
+    
+    <div id="showSegment"class="ui item segment">
+       
+        <div class="ui huge header">
+            
+            <!--Edit button-->
+             <form id="editRecipe" method="PUT" action="/recipes/<%=recipe._id%>/edit">
+                    <button>Edit</button>
+            </form>
+             <form id="delRecipe" action="/recipes/<%= recipe._id%>?_method=DELETE" method="POST">
+                 <button>Delete</button>
+            </form>
+                
+            <!--Title-->
+            <h1><%=recipe.title%></h1>
+            
+        </div>
+        
+        <!--Image-->
+        <div id="showImage" >
+            <img src="<%=recipe.image%>">
+        </div>
+        <!--Ingredients-->
+         <div>
+             <div id="showDescription">
+                 <h2>Ingredients</h2>
+                 <p><%-recipe.ingredient%></p>
+             </div>
+        </div>
+        
+        <!--Process-->
+         <div>
+             <div id="showDescription">
+                 <h2>Process</h2>
+                 <p><%-recipe.recipe%></p>
+             </div>
+        </div>
+        
+    </div> <!--End of showSegment-->
+</div>
+
+
+<%include ./partials/footer%>

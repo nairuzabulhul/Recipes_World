@@ -1,6 +1,7 @@
 
 Recipes World is Web application created with Node.js and MonogoDB
 App Demo:
+
 ![Log](http://i.giphy.com/l0Fecb1gR0bjqMKw8.gif)
 
 
